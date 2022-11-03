@@ -273,9 +273,9 @@ async function deploy ({
     openUrlsBrowser(gatewayUrls, hostnames, logger)
   }
 
-  if (copyUrl) {
-    copyToClipboard(hostnames, gatewayUrls, logger)
-  }
+  // if (copyUrl) {
+  //   copyToClipboard(hostnames, gatewayUrls, logger)
+  // }
 
   logger.out(cid)
   return cid
